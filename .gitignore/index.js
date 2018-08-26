@@ -9,5 +9,17 @@ bot.on("ready", function() {
     console.log("Le bot a bien aiter conecte");
 })
 
+Client.on('message', message => {
 
-bot.login("NDgzMjcyNzc3NzY4NjMyMzQ3.DmRRfA.TyUj_IkGp6K6d-YhmEQMSl38UbY");
+    if(message.content === prefix + "aide"){
+        var help_enbed = new Discord.RichEmbed()
+        .setColor("#40A497")
+        .setTitle("Voici mes command d'aide :D")
+        .setDescription("Voici mes commandes disponible")
+        .addField("!!aide", "Affiche les command du bot!")
+    }
+
+})
+
+
+bot.login("NDgzMjcyNzc3NzY4NjMyMzQ3.DmRDQw.aF057xSeWiUs5-q3ZbEFgYUL0Ms");
