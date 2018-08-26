@@ -10,4 +10,4 @@ bot.on("ready", function() {
 })
 
 
-bot.login("NDgzMjg1OTQ5MzI1NzcwNzUz.DmRO0g.QnhCe0lZvKEDd_8ZE23A3D4S5Pk");
+bot.login("NDgzMjcyNzc3NzY4NjMyMzQ3.DmRRfA.TyUj_IkGp6K6d-YhmEQMSl38UbY");
